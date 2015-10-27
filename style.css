@@ -1,7 +1,23 @@
 /* Sommaire*/
 /***********/
 
+/* Responsive  */
+@media screen and (max-width: 480px)
+{
+    nav
+    {
+        display: block;
+        width: 100%;
+    }
+}
 
+
+/* police
+
+font-family: 'Press Start 2P', cursive;
+font-family: 'courgette';
+  font-family: 'Orbitron', sans-serif;
+*/
 
 /*********/
 /*   Body */
@@ -22,8 +38,9 @@ body
   background-color: white;
   border: 4px  ;
   border-radius: 10px 35px 10px 35px;
-  font-family: Courgette, serif;
-  font-size: 20px;
+  /*font-family: Courgette, serif;*/
+  font-family: 'Press Start 2P';
+  font-size: 15px;
   text-align: center; 
   height: 45px;
   width: 1010px;
@@ -72,6 +89,13 @@ p
 {
   text-align: center;
 }
+
+.ecrit
+{
+  font-family:  cursive;
+  text-align: center;
+}
+
 
 /*********/
 /* Présentation*/
