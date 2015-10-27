@@ -16,10 +16,10 @@ body
     
 }
 
-.nav
+.nav  
 {
-  background-color: chartreuse;
-  border: 4px   dotted chartreuse;
+  background-color: green;
+  border: 4px   dotted ;
   border-radius: 10px 35px 10px 35px;
   font-family: Courgette, serif;
   font-size: 20px;
@@ -28,9 +28,16 @@ body
   width: 1010px;
   margin-left: 150px;
   margin-top: 20px;
+}
 
-    
-    
+ul 
+{
+    margin-top: 30px;
+    border-top-width: 10px;
+   /* height: 30px;*/
+    width: 930px;
+    padding-top: 10px;
+
 }
 
 /*********/
