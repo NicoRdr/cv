@@ -15,11 +15,12 @@ body
     
     
 }
-
+/************/
+/*  Menu navbar */
 .nav  
 {
-  background-color: green;
-  border: 4px   dotted ;
+  background-color: white;
+  border: 4px  ;
   border-radius: 10px 35px 10px 35px;
   font-family: Courgette, serif;
   font-size: 20px;
@@ -32,12 +33,17 @@ body
 
 ul 
 {
-    margin-top: 30px;
+    margin-top: 0px;
     border-top-width: 10px;
    /* height: 30px;*/
     width: 930px;
     padding-top: 10px;
 
+}
+
+.col
+{
+  color:red;
 }
 
 /*********/
@@ -49,7 +55,7 @@ ul
   margin-left: 100px;
   border: groove 4px darkgreen;
   float: left;
-
+  margin-left: 320px;
 }
 
 
@@ -80,6 +86,11 @@ p
 .me 
 {
   text-align: center; 
+}
+
+.pres
+{
+  margin-left: 350px
 }
 
 /*********/
