@@ -1,0 +1,131 @@
+/* Sommaire*/
+/***********/
+
+
+
+/*********/
+/*   Body */
+body
+{
+  background: url(img/terminal.png);
+  position: no-repeat;
+  font-size: cover;
+  background-attachment: fixed;
+  
+    
+    
+}
+
+.nav
+{
+  background-color: chartreuse;
+  border: 4px   dotted chartreuse;
+  border-radius: 10px 35px 10px 35px;
+  font-family: Courgette, serif;
+  font-size: 20px;
+  text-align: center; 
+  height: 45px;
+  width: 1010px;
+  margin-left: 150px;
+  margin-top: 20px;
+
+    
+    
+}
+
+/*********/
+/* photo*/
+.img
+{
+
+  width: 150px;
+  margin-left: 100px;
+  border: groove 4px darkgreen;
+  float: left;
+
+}
+
+
+
+/*********/
+/*texte*/
+p
+{
+  font-family:  sans-serif;
+  color:black ;
+}
+
+.desc, h3, h1
+{
+  text-align: center;
+}
+
+/*********/
+/* Présentation*/
+.me .pres
+{
+  font-family: 'Orbitron', sans-serif;
+  border: ;
+  margin-right: 10px;
+  width: 250px;
+  background: rgba(0, 150, 10, 0.7);
+}
+.me 
+{
+  text-align: center; 
+}
+
+/*********/
+/*Formation*/
+
+.form 
+{
+  font-family: 'Orbitron', sans-serif;
+  border: solid 2px lime;
+  margin-left: 350px;
+  margin-right: 150px;
+  margin-top: 250px;  
+  
+
+}
+
+/*********/
+/*Expérience*/
+.exp 
+{
+  font-family: 'Orbitron', sans-serif;
+  border: solid 2px yellow;
+  margin-left: 350px;
+  margin-right: 150px;
+}
+
+
+/*********/
+/* Compétence*/
+
+.comp
+{
+  font-family: 'Orbitron', sans-serif;
+  border: solid 2px blue;
+  margin-left: 350px;
+  margin-right: 150px;
+}
+
+/*********/
+/*Passion*/
+.passion
+{
+  font-family: 'Orbitron', sans-serif;
+  border: solid 2px green;
+  margin-left: 350px;
+  margin-right: 150px;
+}
+
+/*********/
+/* hover pour les liens */
+
+/*a:hover
+{
+  background-color: aqua;
+}
+*/
