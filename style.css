@@ -38,8 +38,7 @@ body
   background-color: white;
   border: 4px  ;
   border-radius: 10px 35px 10px 35px;
-  /*font-family: Courgette, serif;*/
-  font-family: 'Press Start 2P';
+  font-family: ;
   font-size: 15px;
   text-align: center; 
   height: 45px;
@@ -60,7 +59,9 @@ ul
 
 .col
 {
-  color:red;
+  color: black;
+  font-family:cursive;
+  font-size: 20px;
 }
 
 /*********/
