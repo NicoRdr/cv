@@ -35,16 +35,16 @@ body
 /*  Menu navbar */
 .nav  
 {
-  background-color: white;
+  
   border: 4px  ;
-  border-radius: 10px 35px 10px 35px;
   font-family: ;
   font-size: 15px;
   text-align: center; 
   height: 45px;
   width: 1010px;
   margin-left: 150px;
-  margin-top: 20px;
+  margin-top: 5px;
+  position: ;
 }
 
 ul 
@@ -97,6 +97,10 @@ p
   text-align: center;
 }
 
+.form1 
+{
+  font-family: fantasy;
+}
 
 /*********/
 /* Présentation*/
@@ -104,6 +108,7 @@ p
 {
   font-family: 'Orbitron', sans-serif;
   border: ;
+  margin-top: 30Px;
   margin-right: 10px;
   width: 250px;
   background: rgba(0, 150, 10, 0.7);
@@ -111,6 +116,7 @@ p
 .me 
 {
   text-align: center; 
+  
 }
 
 .pres
@@ -128,9 +134,9 @@ p
   margin-left: 350px;
   margin-right: 150px;
   margin-top: 250px;  
-  
-
 }
+
+
 
 /*********/
 /*Expérience*/
@@ -167,8 +173,8 @@ p
 /*********/
 /* hover pour les liens */
 
-/*a:hover
+a:hover
 {
-  background-color: aqua;
+  background-color:forestgreen;
 }
 */
