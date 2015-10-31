@@ -24,8 +24,8 @@ font-family: 'courgette';
 body
 {
   background: url(img/terminal.png);
-  position: no-repeat;
-  font-size: cover;
+  background-repeat:  no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   
     
@@ -35,7 +35,11 @@ body
 /*  Menu navbar */
 .nav  
 {
+<<<<<<< HEAD
   
+=======
+  background-color: /*black*//rgba(0,0,0,0.8)*/;
+>>>>>>> e17915bc96e8be397977e08f72fcf6cebc1eede7
   border: 4px  ;
   font-family: ;
   font-size: 15px;
@@ -59,6 +63,7 @@ ul
 
 .col
 {
+<<<<<<< HEAD
   color: black;
   font-family:cursive;
   font-size: 20px;
@@ -74,6 +79,11 @@ ul
   border: groove 4px darkgreen;
   float: left;
   margin-left: 320px;
+=======
+  color: rgb(153,255,0); 
+	font-size: 20px;
+	
+>>>>>>> e17915bc96e8be397977e08f72fcf6cebc1eede7
 }
 
 
@@ -83,7 +93,7 @@ ul
 p
 {
   font-family:  cursive, sans-serif;
-  color:black ;
+  color: blue ;
 }
 
 .desc, h3, h1
@@ -110,7 +120,7 @@ p
   border: ;
   margin-top: 30Px;
   margin-right: 10px;
-  width: 250px;
+  width: 220px;
   background: rgba(0, 150, 10, 0.7);
 }
 .me 
@@ -125,12 +135,25 @@ p
 }
 
 /*********/
+/* photo*/
+.img
+{
+
+  width: 150px;
+  margin-left: 100px;
+  border: groove 4px rgb(195,195,195) /*darkgreen*/;
+  float: left;
+  margin-left: 320px;
+}
+
+
+/*********/
 /*Formation*/
 
 .form 
 {
   font-family: 'Orbitron', sans-serif;
-  border: solid 2px lime;
+  border: solid 2px rgb(195,195,195);
   margin-left: 350px;
   margin-right: 150px;
   margin-top: 250px;  
@@ -143,7 +166,7 @@ p
 .exp 
 {
   font-family: 'Orbitron', sans-serif;
-  border: solid 2px yellow;
+  border: solid 2px rgb(195,195,195) /*yellow*/;
   margin-left: 350px;
   margin-right: 150px;
 }
@@ -155,7 +178,7 @@ p
 .comp
 {
   font-family: 'Orbitron', sans-serif;
-  border: solid 2px blue;
+  border: solid 2px  rgb(195,195,195) /*blue*/;
   margin-left: 350px;
   margin-right: 150px;
 }
@@ -165,7 +188,7 @@ p
 .passion
 {
   font-family: 'Orbitron', sans-serif;
-  border: solid 2px green;
+  border: solid 2px rgb(195,195,195) /*green*/;
   margin-left: 350px;
   margin-right: 150px;
 }
