@@ -4,11 +4,11 @@
 /* Responsive  */
 @media screen and (max-width: 480px)
 {
-    nav
+   /* nav
     {
         display: block;
         width: 100%;
-    }
+    }*/
 }
 
 
@@ -35,11 +35,11 @@ body
 /*  Menu navbar */
 .nav  
 {
-<<<<<<< HEAD
+
   
-=======
+
   background-color: /*black*//rgba(0,0,0,0.8)*/;
->>>>>>> e17915bc96e8be397977e08f72fcf6cebc1eede7
+
   border: 4px  ;
   font-family: ;
   font-size: 15px;
@@ -63,7 +63,6 @@ ul
 
 .col
 {
-<<<<<<< HEAD
   color: black;
   font-family:cursive;
   font-size: 20px;
@@ -79,11 +78,11 @@ ul
   border: groove 4px darkgreen;
   float: left;
   margin-left: 320px;
-=======
+
   color: rgb(153,255,0); 
 	font-size: 20px;
 	
->>>>>>> e17915bc96e8be397977e08f72fcf6cebc1eede7
+
 }
 
 
@@ -171,6 +170,11 @@ p
   margin-right: 150px;
 }
 
+.cent
+{
+  text-align: center;
+}
+
 
 /*********/
 /* Compétence*/
@@ -198,6 +202,6 @@ p
 
 a:hover
 {
-  background-color:forestgreen;
+  background-color: chartreuse;
 }
 */
