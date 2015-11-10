@@ -1,14 +1,59 @@
 
+/**********/
+/*barre de nav*/
+/************/
+
+.nav  
+{
+
+  
+
+  background-color: /*black*//rgba(0,0,0,0.8)*/;
+
+  border: 4px  ;
+  font-family: ;
+  font-size: 15px;
+  text-align: center; 
+  height: 45px;
+  width: 1010px;
+  margin-left: 150px;
+  margin-top: 5px;
+  position: ;
+}
+
+ul 
+{
+    margin-top: 0px;
+    border-top-width: 10px;
+   /* height: 30px;*/
+    width: 930px;
+    padding-top: 10px;
+
+}
+
+.col
+{
+  color: black;
+  font-family:cursive;
+  font-size: 20px;
+}
+
+/************          code rajouter             *********************************/
+
+
 
 {
   margin: 0;
   padding: 0  
 }
 body {
-  background: url(http://img6.uploadhouse.com/fileuploads/17737/17737075bdad5cfa9423bb2c3c2beee695c72bb8.jpg);
+  background: url(../img/terminal.jpg) /*url(http://img6.uploadhouse.com/fileuploads/17737/17737075bdad5cfa9423bb2c3c2beee695c72bb8.jpg)*/;
   color: #B1B1B1;
   margin: 15px auto 0;
   width: 410px;
+	background-repeat:  no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 #contact {
   overflow: auto;
