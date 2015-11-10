@@ -19,11 +19,13 @@ font-family: 'courgette';
   font-family: 'Orbitron', sans-serif;
 */
 
-/*********/
-/*   Body */
+																																			/*********/
+																																			/*   Body */
+																																			/**********/
+
 body
 {
-  background: url(img/terminal.png);
+  background: url(../img/terminal.png);
   background-repeat:  no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -31,8 +33,11 @@ body
     
     
 }
-/************/
-/*  Menu navbar */
+
+																																		/************/
+																																		/*  Menu navbar */
+																																		/***************/
+
 .nav  
 {
 
@@ -68,8 +73,11 @@ ul
   font-size: 20px;
 }
 
-/*********/
-/* photo*/
+																																	/*********/
+																																	/* photo*/
+																																	/*******/
+
+
 .img
 {
 
@@ -87,12 +95,14 @@ ul
 
 
 
-/*********/
-/*texte*/
+																																/*********/
+																																/*texte*/
+																																/*******/
+
 p
 {
   font-family:  cursive, sans-serif;
-  color: blue ;
+  color: white ;
 }
 
 .desc, h3, h1
@@ -111,8 +121,11 @@ p
   font-family: fantasy;
 }
 
-/*********/
-/* Présentation*/
+
+																															/*********/
+																															/* Présentation*/
+																															/**************/
+
 .me .pres
 {
   font-family: 'Orbitron', sans-serif;
@@ -133,8 +146,11 @@ p
   margin-left: 350px
 }
 
-/*********/
-/* photo*/
+																														/*********/
+																														/* photo*/
+																														/*********/
+
+
 .img
 {
 
@@ -146,8 +162,9 @@ p
 }
 
 
-/*********/
-/*Formation*/
+																															/*********/
+																															/*Formation*/
+																															/***********/
 
 .form 
 {
@@ -160,8 +177,9 @@ p
 
 
 
-/*********/
-/*Expérience*/
+																														/*********/
+																														/*Expérience*/
+																														/************/
 .exp 
 {
   font-family: 'Orbitron', sans-serif;
@@ -176,8 +194,9 @@ p
 }
 
 
-/*********/
-/* Compétence*/
+																														/*********/
+																														/* Compétence*/
+																														/*************/
 
 .comp
 {
@@ -187,8 +206,9 @@ p
   margin-right: 150px;
 }
 
-/*********/
-/*Passion*/
+																															/*********/
+																															/*Passion*/
+																															/*********/
 .passion
 {
   font-family: 'Orbitron', sans-serif;
