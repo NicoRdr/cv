@@ -215,8 +215,14 @@ p
   border: solid 2px rgb(195,195,195) /*green*/;
   margin-left: 350px;
   margin-right: 150px;
-}
+ }
+ 
+.folio
+{
+  
+    margin-top: 50px;
 
+}
 
 																													/******************/
 																													/*   Portfolio   */
@@ -231,8 +237,12 @@ p
 /*********/
 /* hover pour les liens */
 
-a:hover
+/*a:hover
 {
   background-color: chartreuse;
+}*/
+
+a:visited
+{
+  color: white;
 }
-*/
