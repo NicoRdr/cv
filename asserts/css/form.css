@@ -97,7 +97,7 @@ ul
 
 #lisname
 {
-  margin-top: 50px; 
+  margin-top:40px; 
 }
 
                             /***********/
@@ -187,6 +187,16 @@ ul
   color:#F1F1F1;
   font: 14px/16px'Bree Serif', Georgia, serif;
   margin-left: 450px;
+}
+
+                            /*************/
+                            /* contact me */
+                            /*************/
+
+.bord
+{
+  border: 3px solid black;
+  margin-right: 950px;
 }
   
   

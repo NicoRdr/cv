@@ -81,3 +81,28 @@ body {
   border: medium none;
   cursor: pointer;
   width: 15px;
+  =======================================================================================================================
+  formulaire de simpleform
+  
+  <form action="https://getsimpleform.com/messages?form_api_token=<form_api_token>" method="post" id="contactForm" method="post">
+
+              <span class="list" id="lisname" >Name</span>
+              <input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
+
+              <span class="list">Email</span>
+              <input type="text" name="email" class="email" placeholder="Enter your email" tabindex=2 />
+
+              <span class="list">Message</span>
+              <textarea class="message" placeholder="Enter your message" tabindex=4></textarea> </br>
+
+              <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+              <input type='hidden' name='redirect_to' hre="remerciment.html"/>
+
+              <!-- all your input fields here.... -->
+              <!--<input type='text' name='test' />-->
+
+              <!--<input type='submit' value='Test form' />-->
+
+              <input type="submit" name="submit" value="Send e-mail" class="submit" tabindex=5>
+            
+            </form>

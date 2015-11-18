@@ -170,9 +170,9 @@ p
 {
   font-family: 'Orbitron', sans-serif;
   border: solid 2px rgb(195,195,195);
-  margin-left: 350px;
-  margin-right: 150px;
-  margin-top: 250px;  
+  margin-right: 350px;
+  margin-top: 50px;
+  margin-left: 450px;  
 }
 
 
@@ -184,8 +184,10 @@ p
 {
   font-family: 'Orbitron', sans-serif;
   border: solid 2px rgb(195,195,195) /*yellow*/;
-  margin-left: 350px;
-  margin-right: 150px;
+  margin-right: 350px;
+  margin-top: 50px;
+  margin-left: 450px;
+
 }
 
 .cent
@@ -202,8 +204,9 @@ p
 {
   font-family: 'Orbitron', sans-serif;
   border: solid 2px  rgb(195,195,195) /*blue*/;
-  margin-left: 350px;
-  margin-right: 150px;
+  margin-right: 350px;
+  margin-top: 50px;
+  margin-left: 450px;
 }
 
 																															/*********/
@@ -214,7 +217,8 @@ p
   font-family: 'Orbitron', sans-serif;
   border: solid 2px rgb(195,195,195) /*green*/;
   margin-left: 350px;
-  margin-right: 150px;
+  margin-top: 150px;
+  margin-right: 250px;
  }
  
 .folio
@@ -244,5 +248,5 @@ p
 
 a:visited
 {
-  color: white;
+  color: black;
 }
