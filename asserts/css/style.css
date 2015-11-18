@@ -51,7 +51,7 @@ body
   text-align: center; 
   height: 45px;
   width: 1010px;
-  margin-left: 150px;
+  margin-left: 105px;
   margin-top: 5px;
   position: ;
 }
@@ -63,6 +63,7 @@ ul
    /* height: 30px;*/
     width: 930px;
     padding-top: 10px;
+    
 
 }
 
@@ -71,6 +72,7 @@ ul
   color: black;
   font-family:cursive;
   font-size: 20px;
+  padding: 15px;
 }
 
 																																	/*********/
@@ -170,9 +172,9 @@ p
 {
   font-family: 'Orbitron', sans-serif;
   border: solid 2px rgb(195,195,195);
-  margin-right: 350px;
+  margin-right: 360px;
   margin-top: 50px;
-  margin-left: 450px;  
+  margin-left: 350px;  
 }
 
 
@@ -184,9 +186,9 @@ p
 {
   font-family: 'Orbitron', sans-serif;
   border: solid 2px rgb(195,195,195) /*yellow*/;
-  margin-right: 350px;
+  margin-right: 360px;
   margin-top: 50px;
-  margin-left: 450px;
+  margin-left: 350px; 
 
 }
 
@@ -204,9 +206,9 @@ p
 {
   font-family: 'Orbitron', sans-serif;
   border: solid 2px  rgb(195,195,195) /*blue*/;
-  margin-right: 350px;
+  margin-right: 360px;
   margin-top: 50px;
-  margin-left: 450px;
+  margin-left: 350px; 
 }
 
 																															/*********/
@@ -216,9 +218,9 @@ p
 {
   font-family: 'Orbitron', sans-serif;
   border: solid 2px rgb(195,195,195) /*green*/;
-  margin-left: 350px;
+  margin-left: 450px;
   margin-top: 150px;
-  margin-right: 250px;
+  margin-right: 450px;
  }
  
 .folio
@@ -232,9 +234,47 @@ p
 																													/*   Portfolio   */
 																													/****************/
 
+#site
+{
+  text-align: center;
+  margin-left: 35px;
+}
+
 .site
 {
-	
+  margin-top: 50px;
+}
+
+                                    /*************/
+                                    /*   footer */
+                                    /************/
+#footer
+{
+  background-color: rgba(0, 0, 0, 0.35);
+  margin-right:px;
+  margin-left: px;
+}
+
+
+.linke
+{
+  height: 30px;
+  margin-left:550px;
+  margin-top: 5px;
+}
+
+
+.minitext
+{
+  color: black;
+  text-align: center;
+  
+}
+
+
+.github
+{
+  margin-left: 25px;
 }
 
 
