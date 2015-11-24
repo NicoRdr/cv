@@ -19,25 +19,25 @@ font-family: 'courgette';
   font-family: 'Orbitron', sans-serif;
 */
 
-																																			/*********/
-																																			/*   Body */
-																																			/**********/
+				
+                                                                                                                        /*Body 
+----------------*/
 
 body
 {
   background: url(../img/terminal.png);
   background-repeat:  no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
   background-attachment: fixed;
-  
+  height: 100%;
     
     
 }
 
-																																		/************/
-																																		/*  Menu navbar */
-																																		/***************/
-
+																																		
+                                                                                                                        /*Menu navbar
+----------------*/
+																																
 .nav  
 {
 
@@ -75,9 +75,8 @@ ul
   padding: 15px;
 }
 
-																																	/*********/
-																																	/* photo*/
-																																	/*******/
+                                                                                                                        /*photo
+----------------*/
 
 
 .img
@@ -88,18 +87,22 @@ ul
   border: groove 4px darkgreen;
   float: left;
   margin-left: 320px;
-
   color: rgb(153,255,0); 
-	font-size: 20px;
+  font-size: 20px;
 	
 
 }
 
+.syst
+{
+ width: 30px;
+}
 
 
-																																/*********/
-																																/*texte*/
-																																/*******/
+
+																																
+                                                                                                                        /*texte
+----------------*/
 
 p
 {
@@ -124,9 +127,10 @@ p
 }
 
 
-																															/*********/
-																															/* Présentation*/
-																															/**************/
+																													
+																												/*Présentation
+----------------*/
+						
 
 .me .pres
 {
@@ -148,11 +152,10 @@ p
   margin-left: 350px
 }
 
-																														/*********/
-																														/* photo*/
-																														/*********/
-
-
+																													
+																												/*photo
+----------------*/
+																												
 .img
 {
 
@@ -164,9 +167,9 @@ p
 }
 
 
-																															/*********/
-																															/*Formation*/
-																															/***********/
+																													
+                                                                                                                        /*Formation
+----------------*/
 
 .form 
 {
@@ -179,15 +182,18 @@ p
 
 
 
-																														/*********/
-																														/*Expérience*/
-																														/************/
+																													
+																													/*Expérience
+----------------*/
+#experience
+{
+  margin-top: 3px;
+}
 .exp 
 {
   font-family: 'Orbitron', sans-serif;
   border: solid 2px rgb(195,195,195) /*yellow*/;
   margin-right: 360px;
-  margin-top: 50px;
   margin-left: 350px; 
 
 }
@@ -198,22 +204,23 @@ p
 }
 
 
-																														/*********/
-																														/* Compétence*/
-																														/*************/
-
+																													
+																												      /* Compétence
+----------------*/
+#compt
+{
+  margin-top:1px;
+}
 .comp
 {
   font-family: 'Orbitron', sans-serif;
   border: solid 2px  rgb(195,195,195) /*blue*/;
   margin-right: 360px;
-  margin-top: 50px;
+  margin-top: 5px;
   margin-left: 350px; 
 }
 
-																															/*********/
-																															/*Passion*/
-																															/*********/
+																													/*Passion																											----------------*/
 .passion
 {
   font-family: 'Orbitron', sans-serif;
@@ -226,18 +233,18 @@ p
 .folio
 {
   
-    margin-top: 50px;
+  margin-top: 50px;
 
 }
 
-																													/******************/
-																													/*   Portfolio   */
-																													/****************/
+																													/*Portfolio
+----------------*/
+																													
 
 #site
 {
-  text-align: center;
-  margin-left: 35px;
+  text-align: ;
+  margin-left: 550px;
 }
 
 .site
@@ -245,29 +252,34 @@ p
   margin-top: 50px;
 }
 
-                                    /*************/
-                                    /*   footer */
-                                    /************/
-#footer
+                                    
+/*footer
+----------------*/
+/*#footer
 {
-  background-color: rgba(0, 0, 0, 0.35);
-  margin-right:px;
-  margin-left: px;
-}
+ 
+  bottom: 0px;
+  position: absolute;
+ 
+
+}*/
 
 
 .linke
 {
   height: 30px;
-  margin-left:550px;
+  margin-left:350px;
   margin-top: 5px;
 }
 
 
 .minitext
 {
-  color: black;
-  text-align: center;
+  color:chartreuse;
+  margin-top: 5px;
+  margin-bottom: 0px;
+
+
   
 }
 
@@ -278,8 +290,9 @@ p
 }
 
 
-/*********/
-/* hover pour les liens */
+
+/* hover pour les liens 
+-------------------------*/
 
 /*a:hover
 {
@@ -289,4 +302,37 @@ p
 a:visited
 {
   color: black;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+   Margin bottom by footer height 
+  margin-bottom: 60px;*/
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: ;
+  /* Set the fixed height of the footer here */
+  height:53px;
+  background-color:black;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
 }

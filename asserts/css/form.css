@@ -94,13 +94,22 @@ ul
 
 .list 
 {
-  margin-top: px;
+  margin-top: 20px;
   margin-left: 450px;
+  margin-bottom: 0px;
+  /* border: solid  2px rgb(195,195,195);*/
 }
 
-#lisname
+.lisname
 {
-  margin-top:px; 
+  margin-top:0px;
+  margin-left:450px;
+ 
+}
+
+.picturefrom
+{
+  width: 26px;
 }
 
                             /***********/
@@ -217,7 +226,7 @@ ul
 .linke
 {
   height: 30px;
-  margin-left:550px;
+  margin-left:50px;
   margin-top: 5px;
 }
 
