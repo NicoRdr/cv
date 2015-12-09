@@ -1,0 +1,332 @@
+/* Sommaire*/
+/***********/
+
+/* Responsive  */
+@media screen and (max-width: 480px)
+{
+   /* nav
+    {
+        display: block;
+        width: 100%;
+    }*/
+}
+
+
+/* police
+
+font-family: 'Press Start 2P', cursive;
+font-family: 'courgette';
+  font-family: 'Orbitron', sans-serif;
+*/
+
+/*Body 
+----------------*/
+
+body
+{
+  background: url(../img/terminal.png);
+  background-repeat:  no-repeat;
+  /*background-size: cover;*/
+  background-attachment: fixed;
+  height: 100%;
+    
+    
+}
+
+/*Menu navbar
+----------------*/
+																																
+.nav  
+{
+
+  
+
+  background-color: /*black*//rgba(0,0,0,0.8)*/;
+
+  border: 4px  ;
+  font-family: ;
+  font-size: 15px;
+  text-align: center; 
+  height: 45px;
+  width: 1010px;
+  margin-left: 105px;
+  margin-top: 5px;
+  position: ;
+}
+
+ul 
+{
+    margin-top: 0px;
+    border-top-width: 10px;
+   /* height: 30px;*/
+    width: 930px;
+    padding-top: 10px;
+    
+
+}
+
+.col
+{
+  color: black;
+  font-family:cursive;
+  font-size: 20px;
+  padding: 15px;
+}
+
+/*photo
+----------------*/
+
+
+.img
+{
+
+  width: 150px;
+  margin-left: 100px;
+  border: groove 4px darkgreen;
+  float: left;
+  margin-left: 320px;
+  color: rgb(153,255,0); 
+  font-size: 20px;
+	
+
+}
+
+.syst
+{
+ width: 30px;
+}
+
+/*texte
+----------------*/
+
+p
+{
+  font-family:  cursive, sans-serif;
+  color: white ;
+}
+
+.desc, h3, h1
+{
+  text-align: center;
+}
+
+.ecrit
+{
+  font-family:  cursive;
+  text-align: center;
+}
+
+.form1 
+{
+  font-family: fantasy;
+}
+
+/*Présentation
+----------------*/
+						
+
+.me .pres
+{
+  font-family: 'Orbitron', sans-serif;
+  border: ;
+  margin-top: 30Px;
+  margin-right: 10px;
+  width: 220px;
+  background: rgba(0, 150, 10, 0.7);
+}
+.me 
+{
+  text-align: center; 
+  
+}
+
+.pres
+{
+  margin-left: 350px
+}
+
+
+
+*photo
+----------------*/
+																												
+.img
+{
+
+  width: 150px;
+  margin-left: 100px;
+  border: groove 4px rgb(195,195,195) /*darkgreen*/;
+  float: left;
+  margin-left: 320px;
+}
+
+/*Formation
+----------------*/
+
+.form 
+{
+  font-family: 'Orbitron', sans-serif;
+  border: solid 2px rgb(195,195,195);
+  margin-right: 360px;
+  margin-top: 50px;
+  margin-left: 350px;  
+}
+
+
+/*Expérience
+----------------*/
+#experience
+{
+  margin-top: 3px;
+}
+.exp 
+{
+  font-family: 'Orbitron', sans-serif;
+  border: solid 2px rgb(195,195,195) /*yellow*/;
+  margin-right: 360px;
+  margin-left: 350px; 
+
+}
+
+.cent
+{
+  text-align: center;
+}
+
+/* Compétence
+----------------*/
+#compt
+{
+  margin-top:1px;
+}
+.comp
+{
+  font-family: 'Orbitron', sans-serif;
+  border: solid 2px  rgb(195,195,195) /*blue*/;
+  margin-right: 360px;
+  margin-top: 5px;
+  margin-left: 350px; 
+}
+
+/*Passion
+----------------*/
+.passion
+{
+  font-family: 'Orbitron', sans-serif;
+  border: solid 2px rgb(195,195,195) /*green*/;
+  margin-left: 450px;
+  margin-top: 150px;
+  margin-right: 450px;
+ }
+ 
+.folio
+{
+  
+  margin-top: 50px;
+
+}
+
+/*Portfolio
+----------------*/
+																													
+
+#site
+{
+  text-align: ;
+  margin-left: 550px;
+}
+
+.site
+{
+  margin-top: 50px;
+}
+
+                                    
+/*footer
+----------------*/
+/*#footer
+{
+ 
+  bottom: 0px;
+  position: absolute;
+ 
+
+}*/
+
+
+.linke
+{
+  height: 30px;
+  margin-left:350px;
+  margin-top: 5px;
+}
+
+
+.minitext
+{
+  color:chartreuse;
+  margin-top: 5px;
+  margin-bottom: 0px;
+
+
+  
+}
+
+
+.github
+{
+  margin-left: 25px;
+}
+
+.item
+{
+  .transiton(.6s ease-in-out left);
+}
+
+
+
+/* hover pour les liens 
+-------------------------*/
+
+/*a:hover
+{
+  background-color: chartreuse;
+}*/
+
+a:visited
+{
+  color: black;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+   Margin bottom by footer height 
+  margin-bottom: 60px;*/
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: ;
+  /* Set the fixed height of the footer here */
+  height:53px;
+  background-color:black;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
